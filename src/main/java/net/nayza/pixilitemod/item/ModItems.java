@@ -17,6 +17,9 @@ public class ModItems {
     public static final RegistryObject<Item> PIXILITE_CRYSTAL = ITEMS.register("pixilite_crystal",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
+    public static final RegistryObject<Item> PIXILITE_INGOT = ITEMS.register("pixilite_ingot",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
