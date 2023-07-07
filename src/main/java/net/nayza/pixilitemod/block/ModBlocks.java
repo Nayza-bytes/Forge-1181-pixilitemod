@@ -23,15 +23,15 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> PIXILITE_BLOCK = registerBlock("pixilite_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
-                    .strength(1f).requiresCorrectToolForDrops().explosionResistance(15).destroyTime(2)), ModCreativeModTab.PIXILITE_MOD_TAB);
+                    .strength(1f).requiresCorrectToolForDrops().explosionResistance(15)), ModCreativeModTab.PIXILITE_MOD_TAB);
 
     public static final RegistryObject<Block> PIXILITE_ORE = registerBlock("pixilite_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(1f).requiresCorrectToolForDrops().explosionResistance(12).destroyTime(1)), ModCreativeModTab.PIXILITE_MOD_TAB);
+                    .strength(1f).requiresCorrectToolForDrops().explosionResistance(12)), ModCreativeModTab.PIXILITE_MOD_TAB);
 
     public static final RegistryObject<Block> DEEPSLATE_PIXILITE_ORE = registerBlock("deepslate_pixilite_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(1f).requiresCorrectToolForDrops().explosionResistance(12).destroyTime(1)), ModCreativeModTab.PIXILITE_MOD_TAB);
+                    .strength(1f).requiresCorrectToolForDrops().explosionResistance(12)), ModCreativeModTab.PIXILITE_MOD_TAB);
 
 
 
