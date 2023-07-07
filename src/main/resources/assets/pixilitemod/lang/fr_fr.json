@@ -1,4 +1,7 @@
 {
   "item.pixilitemod.pixilite_crystal": "Crystal de Pixilite",
-  "item.pixilitemod.pixilite_ingot": "Lingot de Pixilite"
+  "item.pixilitemod.pixilite_ingot": "Lingot de Pixilite",
+
+
+  "block.pixilitemod.pixilite_block": "Bloc de pixilite"
 }
