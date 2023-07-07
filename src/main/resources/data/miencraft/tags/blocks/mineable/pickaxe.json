@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "pixilitemod:pixilite_ore",
+    "pixilitemod:deepslate_pixilite_ore",
+    "pixilitemod:pixilite_block"
+  ]
+}
