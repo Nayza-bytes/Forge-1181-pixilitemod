@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.nayza.pixilitemod.PixiliteMod;
+import net.nayza.pixilitemod.item.ModCreativeModTab;
 import net.nayza.pixilitemod.item.ModItems;
 
 import java.util.function.Supplier;
@@ -22,11 +23,15 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> PIXILITE_BLOCK = registerBlock("pixilite_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.HEAVY_METAL)
-                    .strength(2f).requiresCorrectToolForDrops().explosionResistance(15).destroyTime(5)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+                    .strength(1f).requiresCorrectToolForDrops().explosionResistance(15).destroyTime(2)), ModCreativeModTab.PIXILITE_MOD_TAB);
 
     public static final RegistryObject<Block> PIXILITE_ORE = registerBlock("pixilite_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(2f).requiresCorrectToolForDrops().explosionResistance(12).destroyTime(4)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+                    .strength(1f).requiresCorrectToolForDrops().explosionResistance(12).destroyTime(1)), ModCreativeModTab.PIXILITE_MOD_TAB);
+
+    public static final RegistryObject<Block> DEEPSLATE_PIXILITE_ORE = registerBlock("deepslate_pixilite_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1f).requiresCorrectToolForDrops().explosionResistance(12).destroyTime(1)), ModCreativeModTab.PIXILITE_MOD_TAB);
 
 
 

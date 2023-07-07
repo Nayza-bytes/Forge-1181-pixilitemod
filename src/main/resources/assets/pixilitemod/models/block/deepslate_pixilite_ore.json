@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "pixilitemod:block/deepslate_pixilite_ore"
+  }
+}
