@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "pixilitemod:pixilite_crystal"
+  },
+  "result": "pixilitemod:pixilite_ingot",
+  "experience": 0.45,
+  "cookingtime": 250
+}

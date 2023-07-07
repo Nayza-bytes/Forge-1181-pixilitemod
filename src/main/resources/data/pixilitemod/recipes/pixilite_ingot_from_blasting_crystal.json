@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "pixilitemod:pixilite_crystal"
+  },
+  "result": "pixilitemod:pixilite_ingot",
+  "experience": 0.50,
+  "cookingtime": 150
+}

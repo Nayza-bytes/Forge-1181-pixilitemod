@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pixilitemod:pixilite_block"
+    }
+  ],
+
+  "result": {
+    "item": "pixilitemod:pixilite_ingot",
+    "count": 9
+  }
+}
