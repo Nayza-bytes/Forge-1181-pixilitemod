@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "value": [
+    "minecraft:chest",
+    "minecraft:ender_chest",
+    "minecraft:trapped_chest"
+  ]
+
+}
