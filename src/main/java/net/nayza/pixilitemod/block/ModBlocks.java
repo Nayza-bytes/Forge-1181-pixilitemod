@@ -36,7 +36,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SLOW_BLOCK = registerBlock("slow_block",
             () -> new SlowBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(1f).requiresCorrectToolForDrops().explosionResistance(12)), ModCreativeModTab.PIXILITE_MOD_TAB);
+                    .strength(2f).requiresCorrectToolForDrops().explosionResistance(55)), ModCreativeModTab.PIXILITE_MOD_TAB);
 
 
 

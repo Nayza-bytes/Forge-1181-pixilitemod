@@ -3,6 +3,7 @@
   "values": [
     "pixilitemod:pixilite_ore",
     "pixilitemod:deepslate_pixilite_ore",
-    "pixilitemod:pixilite_block"
+    "pixilitemod:pixilite_block",
+    "pixilitemod:slow_block"
   ]
 }
