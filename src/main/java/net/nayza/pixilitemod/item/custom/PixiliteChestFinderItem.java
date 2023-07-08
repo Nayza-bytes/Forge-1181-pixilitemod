@@ -67,7 +67,6 @@ public class PixiliteChestFinderItem extends Item {
         } else {
             p_41424_.add(new TranslatableComponent("tooltip.pixilitemod.pixilite_chest_finder.tooltip"));
         }
-        super.appendHoverText(p_41421_, p_41422_, p_41423_, p_41424_);
     }
 
 }
