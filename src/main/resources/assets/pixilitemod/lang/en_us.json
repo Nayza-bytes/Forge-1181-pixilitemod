@@ -3,6 +3,7 @@
   "item.pixilitemod.pixilite_ingot": "Pixilite Ingot",
   "item.pixilitemod.pixilite_chest_finder": "Pixilite Chest Finder",
   "item.pixilitemod.sulim_seeds": "Sulim seeds",
+  "item.pixilitemod.cooked_sulim_seeds": "Cooked Sulim seeds",
 
 
   "block.pixilitemod.pixilite_block": "Pixilite Block",
@@ -11,6 +12,9 @@
   "block.pixilitemod.slow_block": "Slow Block",
 
   "itemGroup.pixilitemodtab": "Pixilite Mod",
+
+  "tooltip.pixilitemod.pixilite_chest_finder.tooltip.shift": "Allow the player to find chests hidden undergrounds, like dungeons chests !",
+  "tooltip.pixilitemod.pixilite_chest_finder.tooltip": "§8Press§r §7[SHIFT]§r §8for more information§r",
 
   "item.pixilitemod.pixilite_chest_finder.no_valuable_found": "No chest found !"
 }

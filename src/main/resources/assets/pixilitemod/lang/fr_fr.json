@@ -3,6 +3,7 @@
   "item.pixilitemod.pixilite_ingot": "Lingot de Pixilite",
   "item.pixilitemod.pixilite_chest_finder": "Chercheur de coffre en Pixiltie",
   "item.pixilitemod.sulim_seeds": "Graines de Sulim",
+  "item.pixilitemod.cooked_sulim_seeds": "Graines de Sulim cuite",
 
 
   "block.pixilitemod.pixilite_block": "Bloc de pixilite",
@@ -11,6 +12,9 @@
   "block.pixilitemod.slow_block": "Bloc ralentisseur",
 
   "itemGroup.pixilitemodtab": "Pixilite Mod",
+
+  "tooltip.pixilitemod.pixilite_chest_finder.tooltip.shift": "Permet au joueur de trouver des coffres souterrains, comme les coffres de structures cacher",
+  "tooltip.pixilitemod.pixilite_chest_finder.tooltip": "§8Appuie sur§r §7[SHIFT]§r §8pour plus d'informations§r",
 
   "item.pixilitemod.pixilite_chest_finder.no_valuable_found": "Pas de coffre trouve dans les alentours !"
 }

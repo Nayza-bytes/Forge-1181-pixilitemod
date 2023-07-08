@@ -29,6 +29,9 @@ public class ModItems {
     public static final RegistryObject<Item> SULIM_SEEDS = ITEMS.register("sulim_seeds",
             () -> new SulimSeedsItem(new Item.Properties().tab(ModCreativeModTab.PIXILITE_MOD_TAB)));
 
+    public static final RegistryObject<Item> COOKED_SULIM_SEEDS = ITEMS.register("cooked_sulim_seeds",
+            () -> new Item(new Item.Properties().tab(ModCreativeModTab.PIXILITE_MOD_TAB).food(ModFoods.COOKED_SULIM_SEEDS)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

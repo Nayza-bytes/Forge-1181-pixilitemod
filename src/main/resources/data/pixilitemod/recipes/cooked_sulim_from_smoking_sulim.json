@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "pixilitemod:sulim_seeds"
+  },
+  "result": "pixilitemod:cooked_sulim_seeds",
+  "experience": 0.10,
+  "cookingtime": 50
+}
