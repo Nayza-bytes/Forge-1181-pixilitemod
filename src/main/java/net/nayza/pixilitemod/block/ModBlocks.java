@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.nayza.pixilitemod.PixiliteMod;
+import net.nayza.pixilitemod.block.custom.SlowBlock;
 import net.nayza.pixilitemod.item.ModCreativeModTab;
 import net.nayza.pixilitemod.item.ModItems;
 
@@ -31,6 +32,10 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> DEEPSLATE_PIXILITE_ORE = registerBlock("deepslate_pixilite_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1f).requiresCorrectToolForDrops().explosionResistance(12)), ModCreativeModTab.PIXILITE_MOD_TAB);
+
+    public static final RegistryObject<Block> SLOW_BLOCK = registerBlock("slow_block",
+            () -> new SlowBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1f).requiresCorrectToolForDrops().explosionResistance(12)), ModCreativeModTab.PIXILITE_MOD_TAB);
 
 

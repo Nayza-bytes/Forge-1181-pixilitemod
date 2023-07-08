@@ -1,11 +1,16 @@
 {
   "item.pixilitemod.pixilite_crystal": "Pixilite Crystal",
   "item.pixilitemod.pixilite_ingot": "Pixilite Ingot",
+  "item.pixilitemod.pixilite_chest_finder": "Pixilite Chest Finder",
+  "item.pixilitemod.sulim_seeds": "Sulim seeds",
 
 
   "block.pixilitemod.pixilite_block": "Pixilite Block",
   "block.pixilitemod.pixilite_ore": "Pixilite Ore",
   "block.pixilitemod.deepslate_pixilite_ore": "Deepslate Pixilite Ore",
+  "block.pixilitemod.slow_block": "Slow Block",
 
-  "itemGroup.pixilitemodtab": "Pixilite Mod"
+  "itemGroup.pixilitemodtab": "Pixilite Mod",
+
+  "item.pixilitemod.pixilite_chest_finder.no_valuable_found": "No chest found !"
 }

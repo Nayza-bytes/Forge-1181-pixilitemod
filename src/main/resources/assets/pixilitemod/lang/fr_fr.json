@@ -1,11 +1,16 @@
 {
   "item.pixilitemod.pixilite_crystal": "Crystal de Pixilite",
   "item.pixilitemod.pixilite_ingot": "Lingot de Pixilite",
+  "item.pixilitemod.pixilite_chest_finder": "Chercheur de coffre en Pixiltie",
+  "item.pixilitemod.sulim_seeds": "Graines de Sulim",
 
 
   "block.pixilitemod.pixilite_block": "Bloc de pixilite",
   "block.pixilitemod.pixilite_ore": "Minerai de pixilite",
   "block.pixilitemod.deepslate_pixilite_ore": "Minerai de pixilite des abimes",
+  "block.pixilitemod.slow_block": "Bloc ralentisseur",
 
-  "itemGroup.pixilitemodtab": "Pixilite Mod"
+  "itemGroup.pixilitemodtab": "Pixilite Mod",
+
+  "item.pixilitemod.pixilite_chest_finder.no_valuable_found": "Pas de coffre trouve dans les alentours !"
 }
