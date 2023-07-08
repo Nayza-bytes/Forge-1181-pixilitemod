@@ -22,6 +22,8 @@ public class ModTags {
     }
 
     public static class Items {
+        public static final Tags.IOptionalNamedTag<Item> PIXILITE_INGOT = forgeTag("ingots/pixilite");
+
         private static Tags.IOptionalNamedTag<Item> tag(String name) {
             return ItemTags.createOptional(new ResourceLocation(PixiliteMod.MOD_ID, name));
         }
